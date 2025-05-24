@@ -13,13 +13,13 @@ const Posts = () => {
   if (loading) return <p>Loading posts...</p>;
   if (error) return <p>Error: {error}</p>;
 
-  console.log(posts)
+  // console.log(posts)
   return (
     <div>
       <h2>Posts</h2>
-      <div className="grid bg">
+      <div className="grid gap">
         {posts.map((post) => (
-        <div key={post.id} className="p-2 border-b">
+        <div key={post.id} className="bg-green">
           <h3 className="font-bold">{post.title}</h3>
           <p>{post.body}</p>
         </div>

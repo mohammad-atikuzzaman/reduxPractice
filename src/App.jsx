@@ -1,17 +1,14 @@
-
-import "./App.css";
 import { Counter } from "./components/Counter";
 import Posts from "./components/Posts";
 
 function App() {
-
-  return(
+  return (
     <>
-    <h2>hello world</h2>
-    <Counter/>
-    <Posts/>
+      <h2 className="text-2xl text-center uppercase font-bold">Practice Redux with react</h2>
+      <Counter />
+      <Posts />
     </>
-  )
+  );
 }
 
 export default App;
