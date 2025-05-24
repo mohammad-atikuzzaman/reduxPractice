@@ -1,0 +1,9 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.bg{
+    background-color: bisque;
+    box-shadow: 1px 5px 5px;
+}
